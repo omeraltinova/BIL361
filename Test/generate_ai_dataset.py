@@ -8,6 +8,7 @@ CLI aracı: OpenRouter üzerinden seçtiğiniz modele istek atar ve örnek SMS v
 - Varsayılan model: .env (OPENROUTER_DEFAULT_MODEL) ile ayarlanabilir
 - Varsayılan satır ve çalışma sayısı: .env (OPENROUTER_DEFAULT_ROWS, OPENROUTER_DEFAULT_RUNS)
 - Seed destekli çoğaltma: --seed veya .env (OPENROUTER_DEFAULT_SEED) ile seed CSV'yi referans alır
+- Sağlayıcı seçimi: --provider-order/allow/deny veya .env (OPENROUTER_PROVIDER_ORDER, _ALLOW, _DENY)
 - Çıktı: Test klasörü altında yeni, benzersiz isimli bir CSV dosyası (mevcut dosyalara dokunmaz)
 
 Kullanım örneği (.env ile):
@@ -18,6 +19,11 @@ Kullanım örneği (.env ile):
     # OPENROUTER_DEFAULT_ROWS=20
     # OPENROUTER_DEFAULT_RUNS=5
     # OPENROUTER_DEFAULT_SEED="Test/seed.csv"
+    # OPENROUTER_PROVIDER_ORDER="openai,lepton,togetherai"
+    # OPENROUTER_PROVIDER_ALLOW="openai,lepton"
+    # OPENROUTER_PROVIDER_DENY="togetherai"
+    # OPENROUTER_PROVIDER_ONLY="azure"      # Sadece tek bir sağlayıcının kullanılmasını zorla
+    # OPENROUTER_PROVIDER_EXCEPT="togetherai"  # Şu sağlayıcıları hariç tut
     python Test/generate_ai_dataset.py \
         --language tr
     # Yukarıdaki örnek toplam 20*5=100 satır üretir (5 ayrı istekte), tek CSV'de birleştirilir.
@@ -53,6 +59,19 @@ def parse_int_env(key: str, default: int) -> int:
         return parsed
     except Exception:
         return default
+
+
+def parse_list_env(key: str) -> list[str]:
+    val = os.getenv(key)
+    if not val:
+        return []
+    return [item.strip() for item in val.split(",") if item.strip()]
+
+
+def parse_list_arg(val: str | None) -> list[str]:
+    if not val:
+        return []
+    return [item.strip() for item in val.split(",") if item.strip()]
 
 
 def load_env_from_file(env_path: Path, override: bool = False) -> None:
@@ -268,6 +287,37 @@ def sanitize_csv(content: str) -> str:
 
     return output_io.getvalue()
 
+
+def choose_unique_path(path: Path) -> Path:
+    """Var olanı ezmeden benzersiz bir çıktı yolu seçer (yazmadan)."""
+    candidate = path
+    counter = 1
+    while candidate.exists():
+        candidate = path.with_name(f"{path.stem}_{counter}{path.suffix}")
+        counter += 1
+    return candidate
+
+
+def init_output_file(path: Path) -> None:
+    """Çıktı dosyasını başlık yazarak oluşturur (varsa ezmez, benzersiz beklenir)."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    # 'x' ile oluşmazsa hata verirdi; biz benzersiz seçtiğimiz için 'w' güvenli
+    with open(path, "w", encoding="utf-8", newline="") as f:
+        f.write("label,text\n")
+
+
+def append_csv_rows(path: Path, content: str) -> None:
+    """Sanitize edilmiş CSV içeriğinden başlığı atıp satırları ekler."""
+    lines = [ln for ln in content.splitlines() if ln.strip()]
+    if not lines:
+        return
+    start = 1 if lines[0].strip().lower().startswith("label,") else 0
+    rows_to_append = lines[start:]
+    if not rows_to_append:
+        return
+    with open(path, "a", encoding="utf-8", newline="") as f:
+        f.write("\n".join(rows_to_append) + "\n")
+
 def read_seed_excerpt(seed_path: Path, max_lines: int = 200, max_bytes: int = 4096) -> str:
     """Seed CSV'den makul büyüklükte bir alıntı döner (başlık + ilk satırlar)."""
     content = seed_path.read_text(encoding="utf-8")
@@ -314,7 +364,13 @@ def build_prompt(num_rows: int, language: str, seed_csv_excerpt: str | None = No
     return base
 
 
-def request_openrouter_csv(model: str, num_rows: int, language: str, seed_csv_excerpt: str | None = None) -> str:
+def request_openrouter_csv(
+    model: str,
+    num_rows: int,
+    language: str,
+    seed_csv_excerpt: str | None = None,
+    provider_settings: Dict[str, Any] | None = None,
+) -> str:
     api_key = ensure_api_key()
     prompt = build_prompt(num_rows=num_rows, language=language, seed_csv_excerpt=seed_csv_excerpt)
 
@@ -341,6 +397,9 @@ def request_openrouter_csv(model: str, num_rows: int, language: str, seed_csv_ex
         "temperature": 0.7,
         "max_tokens": 5000,
     }
+
+    if provider_settings:
+        payload["provider"] = provider_settings
 
     resp = http_post_json(OPENROUTER_API_URL, headers, payload)
     if getattr(resp, "status_code", 0) != 200:
@@ -427,6 +486,51 @@ def parse_args(argv: list[str]) -> argparse.Namespace:
             "Boşsa OPENROUTER_DEFAULT_SEED (.env) kullanılır."
         ),
     )
+    parser.add_argument(
+        "--provider-order",
+        type=str,
+        default=None,
+        help=(
+            "Sağlayıcı sırası (virgülle ayrılmış). Örn: OpenAI,Lepton,Together. "
+            "Boşsa OPENROUTER_PROVIDER_ORDER (.env) kullanılır."
+        ),
+    )
+    parser.add_argument(
+        "--provider-allow",
+        type=str,
+        default=None,
+        help=(
+            "İzin verilen sağlayıcılar (virgülle ayrılmış). Örn: OpenAI,Lepton. "
+            "Boşsa OPENROUTER_PROVIDER_ALLOW (.env) kullanılır."
+        ),
+    )
+    parser.add_argument(
+        "--provider-deny",
+        type=str,
+        default=None,
+        help=(
+            "Engellenecek sağlayıcılar (virgülle ayrılmış). Örn: Together. "
+            "Boşsa OPENROUTER_PROVIDER_DENY (.env) kullanılır."
+        ),
+    )
+    parser.add_argument(
+        "--provider-only",
+        type=str,
+        default=None,
+        help=(
+            "Sadece şu sağlayıcı(lar)ı kullan (virgülle ayrılmış). Örn: azure. "
+            "Boşsa OPENROUTER_PROVIDER_ONLY (.env) kullanılır."
+        ),
+    )
+    parser.add_argument(
+        "--provider-except",
+        type=str,
+        default=None,
+        help=(
+            "Şu sağlayıcı(lar)ı hariç tut (virgülle ayrılmış). Örn: togetherai. "
+            "Boşsa OPENROUTER_PROVIDER_EXCEPT (.env) kullanılır."
+        ),
+    )
     return parser.parse_args(argv)
 
 
@@ -459,36 +563,59 @@ def main(argv: list[str]) -> int:
                 raise RuntimeError(f"Seed bulunamadı: {sp}")
             seed_excerpt = read_seed_excerpt(sp)
 
-        parts: list[str] = []
+        # Çıktı dosyasını baştan oluştur (benzersiz) ve her run sonrası ekle
+        desired_out = Path(args.output).resolve() if args.output else default_output_path()
+        out_path = choose_unique_path(desired_out)
+        init_output_file(out_path)
+
+        # Provider tercihleri
+        order_cli = parse_list_arg(getattr(args, "provider_order", None))
+        allow_cli = parse_list_arg(getattr(args, "provider_allow", None))
+        deny_cli = parse_list_arg(getattr(args, "provider_deny", None))
+        only_cli = parse_list_arg(getattr(args, "provider_only", None))
+        except_cli = parse_list_arg(getattr(args, "provider_except", None))
+
+        order_env = parse_list_env("OPENROUTER_PROVIDER_ORDER") if not order_cli else []
+        allow_env = parse_list_env("OPENROUTER_PROVIDER_ALLOW") if not allow_cli else []
+        deny_env = parse_list_env("OPENROUTER_PROVIDER_DENY") if not deny_cli else []
+        only_env = parse_list_env("OPENROUTER_PROVIDER_ONLY") if not only_cli else []
+        except_env = parse_list_env("OPENROUTER_PROVIDER_EXCEPT") if not except_cli else []
+
+        provider_settings: Dict[str, Any] | None = None
+        only = only_cli or only_env
+        except_list = except_cli or except_env
+        order = order_cli or order_env
+        allow = allow_cli or allow_env
+        deny = deny_cli or deny_env
+
+        if only or except_list or order or allow or deny:
+            provider_settings = {}
+            # 'only/except' verildiyse öncelik bunlarda; 'allow/deny' göndermezsin
+            if only:
+                provider_settings["only"] = only
+            if except_list:
+                provider_settings["except"] = except_list
+            if not only and allow:
+                provider_settings["allow"] = allow
+            if not except_list and deny:
+                provider_settings["deny"] = deny
+            if order:
+                provider_settings["order"] = order
+
         for _ in range(runs):
             part = request_openrouter_csv(
                 model=model,
                 num_rows=rows,
                 language=args.language,
                 seed_csv_excerpt=seed_excerpt,
+                provider_settings=provider_settings,
             )
-            parts.append(part)
-
-        csv_content = aggregate_csv(parts)
-        csv_content = sanitize_csv(csv_content)
+            append_csv_rows(out_path, part)
     except Exception as exc:
         print(f"Hata: {exc}", file=sys.stderr)
         return 1
 
-    out_path = (
-        Path(args.output).resolve()
-        if args.output
-        else default_output_path()
-    )
-
-    # Yalnızca yeni dosya oluştur; var olanları asla ezme
-    try:
-        final_path = write_unique(out_path, csv_content)
-    except Exception as exc:
-        print(f"Çıktı yazılırken hata: {exc}", file=sys.stderr)
-        return 1
-
-    print(f"Oluşturuldu: {final_path}")
+    print(f"Oluşturuldu: {out_path}")
     return 0
 
 
