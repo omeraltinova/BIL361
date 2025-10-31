@@ -170,3 +170,6 @@ out/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# AI Generated SMS CSV Files
+Test/ai_generated_sms_*.csv
