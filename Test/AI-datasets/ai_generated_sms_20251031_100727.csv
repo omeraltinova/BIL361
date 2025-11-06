@@ -1,0 +1,178 @@
+label,text
+spam,Kredi limitinizi anında yükseltin! Tek tıklama: [LINK_MASKED]
+spam,[FIRMA_MASKED] promosyon kodu: 20% indirim! Detaylar: [LINK_MASKED]
+spam,Büyük çekiliş! 5000 TL hediye çeki kazanın: [LINK_MASKED]
+spam,Sadece bugün: [FIRMA_MASKED] ücretsiz deneme dönemi! Başvurun: [LINK_MASKED]
+spam,Yatırım fırsatı: %100 kazanç garantili! Daha fazla bilgi: [LINK_MASKED]
+spam,Sınır tanımayan bonus paketi: 10.000 TL çekim! Detaylar: [LINK_MASKED]
+spam,Hızlı kredi: 24 saat içinde 50.000 TL! Başvurun: [LINK_MASKED]
+spam,[FIRMA_MASKED] yeni üyeler için 2000 TL bonus! Katıl: [LINK_MASKED]
+spam,Kampanya: [FIRMA_MASKED] 70% indirim kodu KAZAN70! Detay: [LINK_MASKED]
+spam,"Sosyal medyada paylaşın, 1000 TL bonus kazanın: [LINK_MASKED]"
+ham,"Yarın öğleden sonra toplantı, saat 15:00."
+ham,"[FIRMA_MASKED] 16:00 civarında varacak, evde misin?"
+ham,"Hava bugün güzel, pikniğe gidelim."
+ham,Sınavdan sonra film izlemeyi düşünüyorum.
+ham,"Dün geceki parti harikaydı, teşekkürler."
+ham,"Yeni telefonumu aldım, şık tasarıma çok memnunum."
+ham,"Kütüphaneden kitap ödünç aldım, kitapçıya gideceğim."
+ham,"Akşam yemeği için menüyi seçelim, ne istersin?"
+ham,"Çocuklar okula gitti, evde çalışıyorum."
+ham,"Hafta sonu için plan yapalım, ne yapalım?"
+spam,"Kazan 20.000 TL bonusu! Hemen katıl, hesap aç: [LINK_MASKED]"
+spam,[FIRMA_MASKED] ücretsiz kredi kartı başvurusu: [LINK_MASKED]
+spam,Günlük çekiliş: 5.000 TL. Şimdi katıl: [LINK_MASKED]
+spam,Sadece bugün: [FIRMA_MASKED] %80 indirim kodu: KAZAN80. Detay: [LINK_MASKED]
+spam,Yeni kullanıcılar için 100 free spin! Hemen: [LINK_MASKED]
+spam,Hediye çeki kazandınız! Onay için: [LINK_MASKED]
+spam,Anlık 50.000 TL çekim! Başvur: [LINK_MASKED]
+spam,[FIRMA_MASKED] limitli stok fırsatı! Sipariş ver: [LINK_MASKED]
+spam,Elektrik faturası iade talebi: form: [LINK_MASKED]
+spam,Tebrikler! [FIRMA_MASKED] bonus paketi 30.000 TL. Hemen: [LINK_MASKED]
+ham,"Yarın 15:00 toplantı var, lütfen katıl."
+ham,"[FIRMA_MASKED] 18:00 civarında gelir, evde misin?"
+ham,Süt alabilir misin? Okula giderken.
+ham,"Sunumu paylaştım, görüşlerini bekliyorum."
+ham,Akşam yemeği rezervasyonu 20:30. Haberleşiriz.
+ham,Toplantı linkini WhatsApp'tan gönderir misin?
+ham,"Yarın sınav var, erken buluşalım mı?"
+ham,Spor var mı 19:00? Gelmek ister misin?
+ham,"[FIRMA_MASKED] dağıtımda, takip kodu: DEF456. Teslim 14:00 civarı."
+ham,"10:30'da toplantıda buluşalım, link yakında."
+spam,"Sadece bugün! 20% indirim kuponu, kod: KUPON20."
+ham,"Yarın 15:00 toplantı. Notları gönderdim, kontrol eder misin?"
+spam,Hızlı çekim! 5000 TL bonusu için kayıt ol: [LINK_MASKED]
+ham,"[FIRMA_MASKED] bugün 17:30 gelir, evde misin?"
+spam,Kredi limiti artıyor! 30.000 TL çekim fırsatı: [LINK_MASKED]
+ham,"Akşam yemeği için rezervasyon yapıldı, saat 19:30."
+spam,"Teşekkürler, [FIRMA_MASKED] size 20 ücretsiz spin veriyor. Oyna: [LINK_MASKED]"
+ham,"Spor salonu saat 6'da açılıyor, hatırlat."
+spam,Sadece bugün! %70 indirimli [FIRMA_MASKED] ürünleri. Detay: [LINK_MASKED]
+ham,"Yarın sabah 9:00'da ders var, alarm kur."
+spam,"Yeni promo! 1000 TL bonus, hemen katıl: [LINK_MASKED]"
+ham,Çalışma sırasında kahve alabilir misin?
+spam,"[FIRMA_MASKED] teslim edilemedi, adres kontrolü: [LINK_MASKED] — [FIRMA_MASKED]"
+ham,"Araba bakımı için randevu alındı, saat 14:00."
+spam,"Kredi notunu yükselt, 50.000 TL fırsat: [LINK_MASKED]"
+ham,"Yarın turları planlıyoruz, harita al."
+spam,Sadece bugün! %50 nakit bonusu. Hemen katıl: [LINK_MASKED]
+ham,Sadece bugün! %80 indirimli [FIRMA_MASKED] ürünleri. Detay: [LINK_MASKED]
+spam,Bugün 30% indirimli [FIRMA_MASKED] ürünleri. Detay: [LINK_MASKED]
+ham,Gün sonu raporunu e-postaya gönderdim.
+spam,Tebrikler! 5.000 TL bonus kazanmak için hemen tıklayın: [LINK_MASKED]
+spam,[FIRMA_MASKED] yeni üyeler için 200 ücretsiz spin! Katıl: [LINK_MASKED]
+spam,Hızlı kredi: 50.000 TL anında çekim! Başvurun: [LINK_MASKED]
+spam,[FIRMA_MASKED] teslimatı iptal edildi. Adres güncellemek için: [LINK_MASKED] — [FIRMA_MASKED]
+spam,Hesabınızda şüpheli giriş tespit edildi. Güvenlik için doğrulayın: [LINK_MASKED]
+spam,Günlük yatırım sinyali: %90 başarı. Detaylar: [LINK_MASKED]
+spam,Özel kampanya! [FIRMA_MASKED] %75 indirim kodu: KAZAN75. Ayrıntılar: [LINK_MASKED]
+spam,Sadece bugün! [FIRMA_MASKED] limitli stok fırsatı. Sipariş ver: [LINK_MASKED]
+spam,Elektrik faturası iade talebi için IBAN bilgisi lazım. Form: [LINK_MASKED]
+spam,Tebrik! Bedava hediye çeki kazandınız. Onaylamak için: [LINK_MASKED]
+ham,"Toplantı 14:00'te, ajandayı gönderdim."
+ham,"[FIRMA_MASKED] 18:00'da gelir, evde misin?"
+ham,Okula giderken süt alabilir misin?
+ham,"Sunumu paylaştım, yorumlarını bekliyorum."
+ham,"Akşam yemeği için rezervasyon 20:30, haberleşiriz."
+ham,Toplantı 14:00 gibi. Linki WhatsApp'tan atarım.
+ham,Yarın 01.11 sınav var. Erken buluşalım mı?
+ham,Bugün 19:00’da spor var mı?
+ham,[FIRMA_MASKED] dağıtımda. Takip kodu: ABC123. Teslimat saat 14:00 civarı.
+spam,[FIRMA_MASKED] sizi tebrik ediyor! 5.000 TL'den fazla bonus kazanmak için hemen kaydolun: [LINK_MASKED]
+spam,"Hemen katılın, limitli 1.000 free spin fırsatı! Detaylar: [LINK_MASKED]"
+spam,"Kredi notu şartı yok, anında 20.000 TL çekim! Başvurun: [LINK_MASKED]"
+spam,Özel indirim: [FIRMA_MASKED] %80 indirim kodu: KAZAN80. Ayrıntılar: [LINK_MASKED]
+spam,[FIRMA_MASKED] yeni üyeye 100.000 TL bonus! Hemen tıklayın: [LINK_MASKED]
+spam,Sadece bugün! 300.000 TL jackpot kazanma şansı! Detay: [LINK_MASKED]
+spam,Kampanya: 50.000 TL ücretsiz çekim! Sınırlı süre: [LINK_MASKED]
+spam,[FIRMA_MASKED] bugün 1.000.000 TL bonus veriyor! İşte link: [LINK_MASKED]
+spam,"Hemen kazanın: 10.000 free spin, 100.000 TL bonus! Detay: [LINK_MASKED]"
+spam,[FIRMA_MASKED] ile 200% bonus! 5.000 TL'ye kadar çekim: [LINK_MASKED]
+ham,"Akşam yemeği için 20:30'da buluşalım, rezervasyon yaptım."
+ham,"[FIRMA_MASKED] 18:00 civarında gelir, evde misin?"
+ham,Yarın sabah toplantıdan sonra kahve içelim mi?
+ham,Okula giderken süt alabilir misin?
+ham,"Sunumu seninle paylaştım, görüşlerini bekliyorum."
+ham,"Toplantı 14:00'te başlayacak, ajandayı gönderdim."
+ham,"Yeni film sinemada, izlemek ister misin?"
+ham,Yarın akşam 19:00'da spor salonuna gitmek ister misin?
+ham,"Bugün çok meşgulüm, daha sonra konuşalım."
+spam,Tebrikler! [FIRMA_MASKED] 5.000 TL bonus kazandınız. Hemen giriş yapın: [LINK_MASKED]
+spam,Sadece bugün: [FIRMA_MASKED] %50 indirim kodu: KAZAN50. Detaylar: [LINK_MASKED]
+spam,Kredi notu şartı yok! 10.000 TL anında çekim. Başvurun: [LINK_MASKED]
+spam,Elektrik faturası iade formu: [LINK_MASKED] - IBAN bilgisi gerekli. [FIRMA_MASKED]
+ham,"Pazartesi toplantısı 15:00, ajandayı gönderdim."
+ham,"[FIRMA_MASKED] bugün 16:00 civarında gelecek, evde misin?"
+ham,Yarın akşam 21:00'da yemeğe çıkalım. Güncel menü: [LINK_MASKED]
+spam,"Çekiliş: 100.000 TL jackpot, katıl: [LINK_MASKED]"
+spam,Yeni bir kampanya: [FIRMA_MASKED] 5.000 TL ücretsiz spin. Detay: [LINK_MASKED]
+spam,"Sadece 24 saat: 200% bonus, hemen kazanın: [LINK_MASKED]"
+spam,Hesabınızda şüpheli giriş var. Doğrulayın: [LINK_MASKED]
+ham,Çocukların okul çıkışı için inisiyatif planladım. Görüşelim.
+ham,Kısa bir bilgilendirme: sözleşme 31/12'dan itibaren geçerli.
+spam,[FIRMA_MASKED] teslim edilemedi. Adres doğrulaması: [LINK_MASKED] - [FIRMA_MASKED]
+spam,Kredi kartı limit artışı: 5.000 TL. Onay için: [LINK_MASKED]
+ham,Spor salonu 18:00'da kapanıyor. Daha erken girebilir misin?
+ham,"Yeni film önerisi: 'Karanlık Gölgeler', izlemeyi düşünüyorum."
+spam,"İşlem süresi 5 dakika, anında ödeme: [LINK_MASKED]"
+spam,"Daha fazla para kazanmak için: [FIRMA_MASKED] bonus programı, detay: [LINK_MASKED]"
+ham,"Kahve için 5 TL, lütfen."
+spam,"Ücretsiz çekilişe katılın, 5000 TL hediye kazanma şansı! Detaylar: [LINK_MASKED]"
+spam,Şansınızı kullanın: [FIRMA_MASKED] 50% indirim kodu: KIZAN50. Teklif: [LINK_MASKED]
+spam,"Kredi notunuz 600, 10.000 TL kredi başvurusu için hemen: [LINK_MASKED]"
+spam,Hızlı para ihtiyacınız var mı? 5000 TL nakit çekim: [LINK_MASKED]
+spam,Siz de [FIRMA_MASKED] ile 100 free spin kazanın! Katılın: [LINK_MASKED]
+spam,Kullanıcıların 70% kazandığı bonus paketi: 5000 TL + 50 free spin. Detay: [LINK_MASKED]
+spam,"Acil: Hesabınızda şüpheli etkinlik var, doğrulayın: [LINK_MASKED]"
+spam,Yeni kampanya: [FIRMA_MASKED] %80 indirim. Kodu: KUMA80. Şimdi: [LINK_MASKED]
+spam,Tebrikler! 50.000 TL çekim hakkınız var. Çekmek için: [LINK_MASKED]
+spam,Bugün sadece: 100.000 TL jackpot. Katılın: [LINK_MASKED]
+ham,Yarın sabah 10:00'da toplantı. Katılır mısın?
+ham,[FIRMA_MASKED] bugün 12:00 civarında var. Evde olacağım.
+ham,Spor salonunda 18:00'da antrenman var. Sesli mesaj at.
+ham,"Yemek için menüyü gönderdim, fikrin var mı?"
+ham,"Saat 15:30'da randevunuz var, hatırlat."
+ham,"Şu an çay içiyorum, bir süre sonra görüşelim."
+ham,"Hava bugün çok sıcak, su içmeyi unutma."
+ham,"Kütüphaneden 3 kitap aldım, boş zamanlarda okuyacağım."
+ham,"Akşam 20:00'da sinema var, sen de gel."
+spam,Yeni fırsat! [FIRMA_MASKED] 500 TL bonusla anında çekim. Kayıt için: [LINK_MASKED]
+ham,Bu akşam 20:00'da sinemada film izlemek ister misin?
+spam,Sadece bugün: [FIRMA_MASKED] 30% indirim kuponu. Kullan: [LINK_MASKED]
+ham,"Kütüphaneden ödünç aldığım kitap çok ilginç, sen de okudun mu?"
+spam,[FIRMA_MASKED] yeni üyeye 200 free spin! Başvur: [LINK_MASKED]
+ham,"Dün gece yağmur yağdı, sabah tekne sürmek planındayım."
+spam,Kredi notun gerekmiyor! 10.000 TL anında hediye! Detay: [LINK_MASKED]
+ham,"Görüşmek üzere, toplantı saati 14:30."
+spam,Mega jackpot 1M TL! [FIRMA_MASKED] sizi bekyor. Hemen katıl: [LINK_MASKED]
+ham,Sınavdan sonra kafeye gidelim mi?
+spam,[FIRMA_MASKED] ile 50% indirim fırsatı. Şimdi tıkla: [LINK_MASKED]
+ham,Bugün hafta sonu planı var mı? Sizce hangi park güzel?
+spam,Özel teklif: [FIRMA_MASKED] 1000 TL çekim bonusu. Kayıt: [LINK_MASKED]
+ham,"Yarın sabah erken kalkacağım, kahve içmeye gelir misin?"
+spam,"[FIRMA_MASKED] yeni açılan [FIRMA_MASKED], 500 TL bonusla başla. Detay: [LINK_MASKED]"
+ham,"Araba servisi randevusu var, saat 10.30. Hatırlatır mısın?"
+spam,Sadece 24 saat: [FIRMA_MASKED] %70 indirim kodu: KAZAN70. Tıkla: [LINK_MASKED]
+ham,Sonbahar dersi için notları gönderir misin?
+spam,[FIRMA_MASKED] 5000 TL ücretsiz çeki kazandın! Onay için: [LINK_MASKED]
+ham,"Hafta sonu piknik planı var, kaç kişi katılacak?"
+spam,TEBRİKLER! [FIRMA_MASKED] 50 ücretsiz spin kazanın. Detaylar: [LINK_MASKED]
+spam,"Hemen katılın, [FIRMA_MASKED] %70 indirimli alışveriş fırsatı: [LINK_MASKED]"
+spam,Bugün 10.000 TL çekiliş: [LINK_MASKED] - [FIRMA_MASKED]
+spam,Kredi notu gerekmeden 100.000 TL şansı! Başvurun: [LINK_MASKED]
+spam,Saldırı tespit edildi. Hesabınızı doğrulayın: [LINK_MASKED]
+spam,Yatırım sinyali: %80 başarı oranı. Bilgi: [LINK_MASKED]
+spam,Sadece bugün! [FIRMA_MASKED] ücretsiz hediye çeki: [LINK_MASKED]
+spam,[FIRMA_MASKED] teslim edilemedi. Adres kontrolü: [LINK_MASKED] — [FIRMA_MASKED]
+spam,Elektrik faturasını iade edin: IBAN formu: [LINK_MASKED]
+spam,Bedava hediye çeki kazandınız! Onay: [LINK_MASKED]
+ham,"Yarın 14:00 toplantı, ajandayı gönderdim."
+ham,"[FIRMA_MASKED] 18:00 gelip, evde misin?"
+ham,Okula giderken süt alabilir misin?
+ham,"Sunumu paylaştım, yorumlarını bekliyorum."
+ham,"Akşam yemeği rezervasyonu 20:30, haberleşiriz."
+ham,"Toplantı 14:00 gibi, linki WhatsApp'tan atarım."
+ham,"Yarın 01.11 sınav var, erken buluşalım mı?"
+ham,Bugün 19:00'da spor var mı?
+ham,"[FIRMA_MASKED] dağıtımda, takip kodu: ABC123. Teslimat 14:00 civarı."
+ham,"Yarın 10:30 toplantıda buluşuyoruz, link yakında atarım."

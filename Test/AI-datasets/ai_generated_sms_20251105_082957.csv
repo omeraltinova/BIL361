@@ -1,0 +1,202 @@
+label,text
+spam,[FIRMA_MASKED] yeni üyeler için 50 TL hediye çeki! Hemen al: [LINK_MASKED]
+spam,Hesabınızda olağan dışı hareket tespit edildi. Detaylar: [LINK_MASKED]
+spam,Kredi kartı limit artışı onayı: 20.000 TL. Onaylamak için: [LINK_MASKED]
+spam,Sınırlı süreli kampanya! %60 indirim kodu: KAMPANEA. Kullan: [LINK_MASKED]
+spam,"[FIRMA_MASKED] gecikti, yeni teslimat tarihi için: [LINK_MASKED]"
+ham,"Yarın sabah 09:30'da doktor randevum var, hatırlatır mısın?"
+ham,Akşam yemeği sonrası kahve içmek ister misin?
+ham,Ödevini bitirdin mi? Yarın sınıfta soracağız.
+ham,"Evdeki su ısıtıcısı bozuldu, tamirci aradım."
+ham,Hafta sonu piknik planı var mı? Saat 11'de buluşalım.
+spam,"Kayıp paketiniz bulundu, alıcı bilgileri için: [LINK_MASKED]"
+spam,[FIRMA_MASKED] üzerinden ücretsiz internet paketi kazan! Şimdi tıkla: [LINK_MASKED]
+spam,"Kredi notu yükseltme fırsatı: 5 dakikada başvur, 10.000 TL kredi limiti. Başvur: [LINK_MASKED]"
+spam,Günlük bahis tahmini: %85 kazanma ihtimali. Detaylar: [LINK_MASKED]
+spam,Enerji tasarrufu kampanyası! Faturanızda %30 tasarruf için: [LINK_MASKED]
+ham,"Toplantı notlarını paylaştım, dosyayı kontrol eder misin?"
+ham,"Kütüphaneden aldığın kitabı yarın geri getireceksin, hatırlatma."
+ham,"Araba bakım servisine randevu aldım, 15:00'de gel."
+ham,Yeni film akşamı planı: 20:00'de sinemada buluşalım.
+ham,"Çocukların okul etkinliği 05.12'de, hazırlık listesi gönderildi."
+spam,"Hemen kaydol, ilk alışverişinde %30 indirim kazan! Detaylar: [LINK_MASKED]"
+ham,"Yarın saat 10:00'da ofiste görüşelim, raporu yanına al."
+spam,[FIRMA_MASKED] 5.000 TL'ye varan hediye çeki! Şimdi tıkla: [LINK_MASKED]
+ham,"Akşam yemeği için rezervasyon yaptım, 19:30'da buluşuruz."
+spam,Kredi notu sorgulaması ücretsiz! Başvur: [LINK_MASKED]
+ham,"[FIRMA_MASKED] bugün 15:00 civarında gelecek, kapıyı açık bırak."
+spam,Günlük 2 kat kazançlı slot fırsatı! Katıl: [LINK_MASKED]
+ham,"Ders çalışırken not almayı unutma, sınav yarın."
+spam,"Faturanız gecikiyor, ödeme kolaylığı için tıklayın: [LINK_MASKED]"
+ham,"Bugün akşam 20:00'de sinema, biletleri aldım."
+spam,Yeni üyeler için 100 free spin! Hemen: [LINK_MASKED]
+ham,"Annem telefonunu kaybetti, yeni bir SIM almalı."
+spam,[FIRMA_MASKED] adres hatası nedeniyle iade edildi. Güncelle: [LINK_MASKED]
+ham,"Ödev teslim tarihi yarına, lütfen kontrol et."
+spam,Sadece 24 saat! %70 indirim kodu: KAZAN70. Kullan: [LINK_MASKED]
+ham,Sabah kahvaltıda peynir ve zeytin alır mısın?
+spam,Yatırım fırsatı: 50.000 TL anlık kredi! Şimdi al: [LINK_MASKED]
+ham,"Toplantı odası 3A, 14:30'da başlayacak."
+spam,Hesabınızda şüpheli işlem tespit edildi. Doğrulama: [LINK_MASKED]
+spam,Kredi kartı limitinizi artırmak ister misiniz? Tek tıkla başvurun: [LINK_MASKED]
+ham,"Yarın sabah 09:30'da ofise gel, sunumu konuşuruz."
+spam,[FIRMA_MASKED] yeni üyeler için 150 TL hediye çeki! Hemen al: [LINK_MASKED]
+ham,"[FIRMA_MASKED] takip numaranız: XYZ789, teslimat 14:45'te."
+spam,Sadece 2 saat içinde %80 indirim! Şimdi tıkla: [LINK_MASKED]
+ham,"Akşam yemeği menüsü değişti, yeni seçenekler: ızgara tavuk, vejetaryen pizza."
+spam,Anlık döviz kuru bildirimleri: Dolar 27.45 TL. Detaylar: [LINK_MASKED]
+ham,Ders çalışırken kahve alabilir misin? Teşekkürler.
+spam,Ücretsiz film izleme hakkı! 7 gün ücretsiz deneme: [LINK_MASKED]
+ham,"Toplantı odası 3A'ya geçtik, 11:00'de buluşalım."
+spam,[FIRMA_MASKED] ile %60'a varan geri ödeme fırsatı! Katıl: [LINK_MASKED]
+ham,"Eve dönüşte markete uğrayalım, süt ve ekmek al."
+spam,Kazancınızı ikiye katlayın! 5000 TL bonus sadece bugün: [LINK_MASKED]
+ham,"Bugün hava çok soğuk, kalın giyin."
+spam,"Sosyal medyada popüler oyun, 1000 ücretsiz jeton: [LINK_MASKED]"
+ham,"Kredi kartı ekstresi e-postanda, kontrol et."
+spam,Şifrenizi sıfırlamak için linke tıklayın: [LINK_MASKED]
+ham,"Yarın akşam 19:00'de sinema, biletleri aldım."
+spam,"[FIRMA_MASKED] kampanyası: 30 gün ücretsiz deneme, hemen kaydol: [LINK_MASKED]"
+ham,"Ders notlarını paylaşayım, PDF ekli."
+spam,Kredi kartı limitinizi artırmak ister misiniz? Detaylar için: [LINK_MASKED]
+ham,"Yarın sabah 09:30'da ofise gel, toplantı odası 2 numarada."
+spam,[FIRMA_MASKED] yeni üyeler için 150 TL bonus! Şimdi katıl: [LINK_MASKED]
+ham,"Akşam yemeği için markete uğramam gerekiyor, ekmek alır mısın?"
+spam,Kazanma şansınız yüksek! 1000 TL'ye varan çekiliş için tıkla: [LINK_MASKED]
+ham,[FIRMA_MASKED] takip kodunuz: XYZ789. Teslimat 14:00 civarı.
+spam,Sadece bugün! %60 indirim kodu: KAZAN60. Kullan: [LINK_MASKED]
+ham,"Ders çalışmak için kütüphanede buluşalım, 18:00'de."
+spam,[FIRMA_MASKED] üzerinden anında 200 TL para çekme fırsatı! Hemen: [LINK_MASKED]
+ham,"Bugün hava çok güzel, yürüyüşe çıkmak ister misin?"
+spam,Ücretsiz oyun kredisi kazan! Tek yapmanız gereken: [LINK_MASKED]
+ham,"Telefonum çaldı ama cevap veremedim, mesaj bırak."
+spam,Sosyal medya hesabınızda şüpheli etkinlik tespit edildi. Doğrulama: [LINK_MASKED]
+ham,"Ödevini yarına erteledim, ama sunumu bugün göndermeliyiz."
+spam,Yeni nesil VPN hizmeti %99 gizlilik! Deneyin: [LINK_MASKED]
+ham,"Kahve molası 15:00'de, ofiste buluşalım."
+spam,[FIRMA_MASKED] kampanyası: 2 al 1 öde! Detaylar: [LINK_MASKED]
+ham,Babanın doğum günü hediyesi için ne almalı? Fikir ver.
+spam,"Hemen kayıt ol, 500 TL bonus seni bekliyor! Link: [LINK_MASKED]"
+ham,"Sağlık kontrol randevumuz 12.12.2025, saat 10:00."
+spam,Kredi kartı limitinizi artırmak ister misiniz? Tek tıkla başvurun: [LINK_MASKED]
+spam,Hesabınızda olağan dışı hareket tespit edildi. Güvenliğiniz için hemen kontrol edin: [LINK_MASKED]
+spam,Sınırlı süreli hediye çeki kazandınız! Kodu girin: HEDİYE2025 ve detaylar: [LINK_MASKED]
+spam,Online alışverişinizde %70 indirim! Şimdi tıkla: [LINK_MASKED]
+spam,[FIRMA_MASKED] teslimatı gecikti. Lütfen adresinizi onaylayın: [LINK_MASKED]
+spam,"Kredi başvurusu onaylandı, 10.000 TL anında çekim: [LINK_MASKED]"
+spam,Günlük piyasa analizi ve yatırım sinyalleri: [LINK_MASKED]
+spam,Mobil oyun içinde 5.000 bonus puan: [LINK_MASKED]
+spam,E-fatura ödemesi için link: [LINK_MASKED]
+spam,Şifrenizi sıfırlamak için tıklayın: [LINK_MASKED]
+spam,"Kampanya kodu: BONUS30, %30 ekstra kazanç: [LINK_MASKED]"
+ham,"Yarın akşam 19:30'da sinemada buluşalım, film programını göndereceğim."
+ham,"Annem telefonunu kaybetti, yeni bir SIM alabilir misin?"
+ham,Bugün öğle yemeği için tavuklu salata yapalım mı?
+ham,"Toplantı saat 11:00'de başlayacak, [FIRMA_MASKED] linki: [LINK_MASKED]"
+ham,"[FIRMA_MASKED] geldi, paket içinde bir eksik var, kontrol eder misin?"
+ham,"Ders çalışırken notlarımı gönderdim, gözden geçir."
+ham,"Ödev teslim tarihi yarın, unutma lütfen."
+ham,"Alışveriş listesi: ekmek, süt, peynir, domates."
+ham,"Yarın sabah 08:00'de otobüs durağında buluşalım, otobüs numarası 45."
+spam,"Hemen kaydol, ilk alışverişinde %30 indirim kazan! Detaylar: [LINK_MASKED]"
+ham,Yarın akşam 19:00'de sinemaya gidelim mi?
+spam,[FIRMA_MASKED] hesabınıza 5.000 TL bonus eklendi. Onaylamak için tıklayın: [LINK_MASKED]
+ham,Bugün markette ekmek almayı unutma.
+spam,Kredi kartı limit artışı onaylandı. Yeni limit: 20.000 TL. Bilgi: [LINK_MASKED]
+ham,Toplantı odası 2A'da 15:30'da buluşalım.
+spam,"Sınırlı süre! [FIRMA_MASKED] üzerinden 2 ürün al, 1'i ücretsiz kap."
+ham,"Annem telefonunu kaybetti, yeni bir SIM almalı."
+spam,Kazanma şansı! 100.000 TL jackpot çekilişi şimdi katıl: [LINK_MASKED]
+ham,Ders çalışırken kahve içmek ister misin?
+spam,"[FIRMA_MASKED] yeni kampanyası: 7 gün ücretsiz deneme, hemen kaydol: [LINK_MASKED]"
+ham,"[FIRMA_MASKED] takip kodu: XYZ789, bugün saat 12:00 civarı teslim."
+spam,"Sadece 2 saat içinde kaydol, %50 ekstra bonus al! Link: [LINK_MASKED]"
+ham,Yarın sabah 08:00'de otobüsle çıkıyoruz.
+spam,"Hesabınızda şüpheli aktivite tespit edildi, doğrulama için: [LINK_MASKED]"
+ham,"Akşam yemeği menüsü: kebap, pilav, ayran."
+spam,Özel teklif! [FIRMA_MASKED] üyelerine 200 TL hediye çeki. Kullan: [LINK_MASKED]
+ham,"Sınav sonuçları bugün açıklanacak, heyecanlıyım."
+spam,"Anında 10.000 TL nakit kredi, kredi notu gerekmez! Başvur: [LINK_MASKED]"
+ham,Bu akşam yürüyüşe çıkalım mı? Saat 19:30'da buluşalım.
+spam,[FIRMA_MASKED] kampanyası: 200 TL hediye çeki! Şimdi al: [LINK_MASKED]
+spam,Kredi kartı limit artışı onayı için tıklayın: [LINK_MASKED]
+spam,Yüksek kazançlı yatırım fırsatı! %85 getiri garantili. Detay: [LINK_MASKED]
+spam,Hesabınızda olağan dışı işlem tespit edildi. Doğrulama: [LINK_MASKED]
+spam,Sadece 24 saat içinde 5.000 TL bonus kazan! Katıl: [LINK_MASKED]
+spam,Yeni üyelerimize %100 ücretsiz spin! Hemen deneyin: [LINK_MASKED]
+spam,Fatura iade talebiniz için IBAN giriniz: [LINK_MASKED]
+spam,"[FIRMA_MASKED] gecikti, adresinizi onaylayın: [LINK_MASKED]"
+spam,Özel indirim kodu: KAZAN50 - %50 indirim! Kullan: [LINK_MASKED]
+spam,Günlük piyasa analizi ve sinyal: yüksek kazanç! İzle: [LINK_MASKED]
+ham,Yarın akşam 19:30'da sinemaya gidelim mi?
+ham,"Annem telefonunu kaybetti, yeni bir SIM almalı."
+ham,Öğle yemeği için nerede buluşalım? Menüdeki tavsiye var mı?
+ham,"Proje dosyasını gönderdim, gözden geçirip geri dön."
+ham,"Kütüphaneden aldığım kitabı iade etmem lazım, saat 17:00'de gelirim."
+ham,"Bugün hava çok soğuk, kalın bir şeyler giy."
+ham,Ders notlarını paylaşıyor musun? WhatsApp grubunda.
+ham,"Araba bakımı için servise gitti, yarın sabah alınacak."
+ham,"Doğum günü pastasını bugün almayı unutma, 18:00'de buluşalım."
+ham,"Kedim bu sabah hastalandı, veteriner randevusu 14:00'de."
+spam,[FIRMA_MASKED] kampanyasıyla 200 TL hediye çek kazan! Detaylar: [LINK_MASKED]
+spam,Anında 50.000 TL kredi fırsatı! Başvurmak için: [LINK_MASKED]
+spam,Hesabınızda olağandışı hareket tespit edildi. Güvenlik doğrulaması: [LINK_MASKED]
+spam,Bugün sadece 2 saat içinde %80 indirim! Alışveriş için: [LINK_MASKED]
+spam,Yeni üyelere 100 ücretsiz spin! Katıl: [LINK_MASKED]
+spam,"[FIRMA_MASKED] adresinizde sorun var, güncelleyin: [LINK_MASKED]"
+spam,Yatırım sinyali: %95 başarı oranı. Daha fazlası: [LINK_MASKED]
+spam,Elektrik faturası iade için form doldurun: [LINK_MASKED]
+spam,[FIRMA_MASKED] özel kodu: KAZAN90 ile %90 indirim! Ayrıntılar: [LINK_MASKED]
+spam,Sınırsız çekim hakkı! Şimdi kaydol: [LINK_MASKED]
+ham,"Yarın sabah 09:00'da ofise gel, toplantı odası 2. kat."
+ham,Akşam yemeği için ne yemek istersin? Ben makarna yapmayı düşünüyorum.
+ham,"[FIRMA_MASKED] bugün saat 16:30'da gelecek, evde ol."
+ham,Sınavdan önce bir kahve içelim mi?
+ham,"Projeyi tamamladım, dosyayı paylaşıyorum."
+ham,Bu hafta sonu sinemaya gidelim mi? Film listesine bak.
+ham,"Annem telefonla aradı, mesajıma bak."
+ham,Evdeki çamaşırları yıkamayı unutma lütfen.
+ham,"Yarın 11:00'de doktor randevum var, hatırlatır mısın?"
+ham,"Bugün hava çok sıcak, serinlemek için dondurma alalım."
+spam,Kredi kartı limitinizi artırmak ister misiniz? Detaylar: [LINK_MASKED]
+spam,[FIRMA_MASKED] yeni üyeler için 200 TL hediye çeki! Hemen al: [LINK_MASKED]
+spam,Hesabınızda olağan dışı bir işlem tespit edildi. Güvenlik için doğrulama: [LINK_MASKED]
+spam,Bugün sadece 5 saat içinde kaydolursanız %80 bonus kazanırsınız! Başvur: [LINK_MASKED]
+spam,[FIRMA_MASKED] teslimatı gecikti. Lütfen adresinizi kontrol edin: [LINK_MASKED]
+spam,Ücretsiz film izleme fırsatı! 7 gün ücretsiz deneme: [LINK_MASKED]
+spam,Sınırlı süreli indirim: %60'a varan tasarruflar için tıkla: [LINK_MASKED]
+spam,Sanal kart oluşturmak için hızlı adımlar: [LINK_MASKED]
+spam,Yatırım sinyali: bugün %12 getiri fırsatı. Ayrıntılar: [LINK_MASKED]
+spam,[FIRMA_MASKED] kampanyası: 3 al 2 öde! Şimdi alışveriş yap: [LINK_MASKED]
+spam,Hesabınıza 150 TL bonus eklendi. Kullanmak için: [LINK_MASKED]
+spam,"E-posta adresinizi onaylayın, hesabınızı aktif tutun: [LINK_MASKED]"
+ham,Yarın akşam 19:30'da sinemaya gidelim mi?
+ham,"Lütfen toplantı notlarını paylaş, eksik olanları tamamlayalım."
+ham,"Bugün market alışverişi yapmayı unutma, süt ve ekmek al."
+ham,"[FIRMA_MASKED] takip numaranız: XYZ789, bugün saat 16:00 civarı gelecek."
+ham,Doğum günün kutlu olsun! Kutlama planı için mesaj at.
+ham,Ödevini tamamladın mı? Yarın öğretmene teslim et.
+ham,"Annem aradı, akşam yemeği için ne getireceğimizi soruyor."
+ham,"Şu an yağmur yağıyor, dışarı çıkmadan önce şemsiyeyi al."
+ham,"Toplantı odası rezervasyonu 14:00'te onaylandı, linki gönderiyorum."
+ham,"Sabah 08:00'de doktor randevun var, unutma."
+spam,"[FIRMA_MASKED] kampanyası: 5.000 TL bonus, hemen kaydolun ve [LINK_MASKED] adresinden çekin!"
+spam,"Hesabınızda şüpheli hareket tespit edildi, doğrulama için tıklayın: [LINK_MASKED]"
+spam,"Sınırlı süreli fırsat! 100 ücretsiz dönüş hakkı, sadece bugün: [LINK_MASKED]"
+spam,"Kredi kartı limitinizi artırın, anında onay! Detaylar: [LINK_MASKED]"
+spam,"[FIRMA_MASKED] üzerinden %70 indirim kodu: KAZAN70, kodu kullanın: [LINK_MASKED]"
+spam,"Günlük yatırım sinyali: %85 başarı oranı, kaçırmayın! [LINK_MASKED]"
+spam,"Elektrik faturanıza iade talebi, IBAN bilgisi girin: [LINK_MASKED]"
+spam,"Tebrikler! 10.000 TL hediye çeki kazandınız, onaylamak için tıklayın: [LINK_MASKED]"
+spam,"Yeni üyelere 200 free spin, sadece [FIRMA_MASKED] sitesinde: [LINK_MASKED]"
+spam,"Bugün son gün! 1.000 TL bonus, hemen al: [LINK_MASKED]"
+ham,"Yarın 09:30'da ofise gel, toplantı odası B'de buluşacağız."
+ham,"[FIRMA_MASKED] bugün 16:45'te teslim edilecek, kapıda imza gerekecek."
+ham,"Akşam yemeği için rezervasyon yaptım, 19:00'de buluşuruz."
+ham,Sınav notlarımı gönderdiğim dosyayı inceleyebilir misin?
+ham,"Bugün hava çok soğuk, kalın giyin lütfen."
+ham,"Eve geldim, çamaşırları kurutucuya koydun mu?"
+ham,"Araba bakımı için servise gitmem gerekiyor, randevu alabilir misin?"
+ham,"Dün akşamki filmi çok beğendim, tavsiye ederim."
+ham,"Şu an marketteyim, ekmek ve yumurta alır mısın?"
+ham,"Öğleden sonra 15:00'de doktor randevum var, hatırlatır mısın?"
