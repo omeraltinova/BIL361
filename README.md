@@ -4,8 +4,11 @@ Bu depo, eğitim/araştırma amaçlı olarak Türkçe SMS spam tespiti için sen
 
 ### Özet
 - Kod, şablon + yer tutucu + gürültü yaklaşımıyla gerçekçi görünen ancak sentetik mesajlar üretir.
-- Girdi: `Test/seed.csv` (sütunlar: `text,label`).
+- Girdi: `Test/seed.csv` (sütunlar: `label,text`).
 - Çıktı: `Test/augmented_sms.csv`.
+
+### Veri Seti
+- Kaggle: [Turkish Mail Spam Dataset](https://www.kaggle.com/datasets/alpersah11/turkish-mail-spam-dataset)
 
 ### Kullanım
 1. `Test/generate_sms_dataset.ipynb` dosyasını açın ve hücreleri sırayla çalıştırın.
